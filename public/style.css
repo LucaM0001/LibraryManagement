@@ -1,0 +1,89 @@
+#login_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    height: 100vh;
+}
+
+#login_container #login i {
+    color: #158cab;
+}
+
+#login_container #login input::placeholder {
+    color: gray;
+}
+
+#signup_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    height: 100vh;
+}
+
+#signup_container #signup i {
+    color: #158cab;
+}
+
+#signup_container #login input::placeholder {
+    color: gray;
+}
+
+nav img {
+    width: 2rem;
+    height: auto;
+}
+
+nav ul li {
+    margin: 0 2rem;
+}
+
+nav li a:hover {
+    color: #28b62c !important;
+    border-bottom: 2px solid #28b62c;
+}
+
+.footer_container footer img {
+    width: 4rem;
+    height: auto;
+}
+
+.footer_container footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #555;
+    padding: 0 2rem;
+}
+
+.footer_container footer ul li a:hover {
+    color: #28b62c !important;
+    border-bottom: 2px solid #28b62c;
+}
+
+#admin_container,
+#add_form,
+#books_container {
+    position: relative;
+    top: 6rem;
+}
+
+.bookImage {
+    width: 30px;
+    border-radius: 50%;
+}
+
+#add_form {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#books_container {
+    z-index: auto;
+    height: auto;
+}
+
+#books_container img {
+    height: 44vh;
+}
